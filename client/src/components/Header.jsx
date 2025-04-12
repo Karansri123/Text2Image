@@ -18,7 +18,7 @@ const Header = () => {
         amazed—your imagination takes shape in seconds, no expertise needed!
       </p>
 
-      <button className="sm:text-lg text-sm text-white bg-black mt-8 px-8 sm:px-12 py-2.5 flex items-center gap-2 rounded-full hover:bg-gray-800 transition-colors duration-200">
+      <button className="sm:text-lg text-sm text-white bg-black mt-8 px-8 sm:px-12 py-2.5 flex items-center gap-2 rounded-full m-auto hover:scale-105 transition-all duration-500 ">
         Generate Images
         <img className="h-6" src={assets.star_group} alt="Star Group Icon" />
       </button>
