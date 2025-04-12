@@ -9,6 +9,7 @@ import sample_img_1 from './sample_img_1.png'
 import sample_img_2 from './sample_img_2.png'
 import profile_img_1 from './profile_img_1.png'
 import profile_img_2 from './profile_img_2.png'
+import profile_img_3 from './profile_img_3.png'
 import step_icon_1 from './step_icon_1.svg'
 import step_icon_2 from './step_icon_2.svg'
 import step_icon_3 from './step_icon_3.svg'
@@ -58,25 +59,25 @@ export const stepsData = [
 export const testimonialsData = [
     {
         image:profile_img_1,
-        name:'Donald Jackman',
+        name: 'Arjun Kapoor',
         role:'Graphic Designer',
         stars:5,
-        text:`I've been using bg.removal for nearly two years, primarily for Instagram, and it has been incredibly user-friendly, making my work much easier.`
+        text: `For quick edits before sharing wedding previews with clients, bg.removal is my go-to solution. It handles intricate lehenga details and jewelry with impressive accuracy.`
     },
-    {
+        {
         image:profile_img_2,
-        name:'Richard Nelson',
-        role:'Content Creator',
-        stars:5,
-        text:`I've been using bg.removal for nearly two years, primarily for Instagram, and it has been incredibly user-friendly, making my work much easier.`
+        name: 'Neha Gupta',
+        role: 'Social Media Influencer',
+        stars: 5,
+        text: `Creating daily content is so much easier now! I can change backgrounds of my fashion photos anywhere, even from my phone, and the quality never disappoints my followers.`
     },
     {
-        image:profile_img_1,
-        name:'Donald Jackman',
-        role:' Graphic Designer',
-        stars:5,
+        image:profile_img_3,
+        name: 'Aryan Malhotra',
+        role: 'Real Estate Photographer',
+        stars:4,
         text:`I've been using bg.removal for nearly two years, primarily for Instagram, and it has been incredibly user-friendly, making my work much easier.`
-    },
+      },
 ]
 
 export const plans = [
