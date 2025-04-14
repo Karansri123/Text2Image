@@ -1,13 +1,20 @@
+/* eslint-disable no-unused-vars */
 import React, { useContext } from 'react'
 import { plans } from '../assets/assets'
 import { AppContext } from '../context/AppContext'
+import {motion} from 'framer-motion'
 
 const BuyCredit = () => {
 
   const { user } = useContext(AppContext)
 
   return (
-    <section className='min-h-[80vh] text-center pt-14 mb-10 px-4'>
+    <motion.section
+    initial={{ opacity: 0.2, x: 100 }}
+    transition={{ duration: 1 }}
+    whileInView={{ opacity: 1, x: 0 }}
+    viewport={{ once: true }}
+    className='min-h-[80vh] text-center pt-14 mb-10 px-4'>
       <button 
         className='border border-gray-400 px-10 py-2 rounded-full mb-6 text-sm hover:bg-gray-100 transition-colors duration-300 '
         aria-label='View our available plans'
@@ -47,7 +54,7 @@ const BuyCredit = () => {
           </div>
         ))}
       </div>
-    </section>
+    </motion.section>
   )
 }
 

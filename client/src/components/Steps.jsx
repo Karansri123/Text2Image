@@ -1,9 +1,16 @@
+/* eslint-disable no-unused-vars */
 import React from "react";
 import { stepsData } from "../assets/assets";
+import { motion } from "framer-motion";
 
 const Steps = () => {
   return (
-    <section
+    <motion.section
+      initial={{ opacity: 0.2, y: 100 }}
+      transition={{ duration: 1 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true }}
+      
       className="flex flex-col items-center justify-center my-32 px-4"
       role="region"
       aria-label="Steps to get started"
@@ -35,7 +42,7 @@ const Steps = () => {
           </div>
         ))}
       </div>
-    </section>
+    </motion.section>
   );
 };
 
